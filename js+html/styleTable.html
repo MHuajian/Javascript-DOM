@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+body{
+  font-family: "Helvetica","Arial"; 
+}
+table{
+  margin:auto;
+  border: 1px solid #699;
+}
+caption{
+  margin:auto;
+  padding:.2em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+th{
+font-weight: normal;
+font-style: italic;
+text-align: left;
+border: 1px dotted #699;
+}
+th,td{
+  width: 10em;
+  padding:.5em;
+}
+  </style>
+  <script type="text/javascript" src="../js/addLoadEvent.js"></script>
+  <script type="text/javascript" src="../js/displayAbbreviations.js"></script>
+  <script type="text/javascript" src="../js/stripeTables.js"></script>
+</head>
+<body>
+  <table>
+    <caption>Itinerary</caption>
+    <thead>
+      <tr>
+        <th>When</th>
+        <th>Where</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>June 9th</td>
+        <td>Porland, <abbr title="Oregon">OR</abbr></td>
+      </tr>
+      <tr>
+        <td>June 10th</td>
+        <td>Seattl,<abbr title="Washington">WA</abbr></td>
+      </tr>
+      <tr>
+        <td>June 12th</td>
+        <td>Sacramento,<abbr title="California">CA</abbr></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

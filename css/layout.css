@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+  background:url("../images/background.gif") repeat-x;
+}
+#wrap{
+	margin: auto;
+	width: 970px;
+	margin-top: 10px;
+}
+#header{
+	border: 1px solid #667;
+	background: url('../images/guitarist.gif') no-repeat top right;
+	border-bottom: 0px;
+}
+#navigator{
+	background: url('../images/navbar.gif');
+	height: 25px;
+}
+#navigator ul{
+	margin-left: 95px;
+	list-style: none;
+}
+#navigator li{
+	float: left;
+}
+#navigator li a{
+	display: block;
+	padding:0 20px;
+	line-height: 25px;
+	border-left: 1px solid #99a;
+}
+#content{
+	padding:2em 10%;
+	line-height: 1.8em;
+}
+#content p{
+	padding: 1em 0;
+}
+#foot{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+}
+#preview{
+	position: absolute;
+}
+#frame{
+	z-index:99;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+#imagegallery img{
+	width: 100px;
+	height: 100px;
+}
+#imagegallery ul{
+	list-style: noen;
+}
+#imagegallery li{
+	 display: inline;
+ }
+ dl{ 
+ 	overflow: hidden;
+ }
+ dt{
+   float: left;
+   padding-right: 10px;
+ }
+ dd{
+ 	float: left;
+    padding-right: 40px;
+ }
+ label{
+ 	display: block;
+ }
+ fieldset{
+   border:none;
+ }

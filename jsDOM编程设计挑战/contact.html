@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/basic.css">
+	 <script type="text/javascript" src="../js/addLoadEvent.js"></script>
+  <script type="text/javascript" src="highlightPage.js"></script>
+  <script type="text/javascript" src="contact.js"></script>
+</head>
+<body>
+   <div id="wrap">  
+	<div id="header">
+		<img src="../images/logo.gif" alt="" />
+	</div>
+	<div id="navigator">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="live.html">Live</a></li>
+			<li><a href="contact.html" style="border-right: 1px solid #99a">Contact</a></li>
+		</ul>
+	</div>
+	<div id="content">
+     <h1>Contact the band</h1>
+     <form id="contact" action="#" method="post">
+       <fieldset>
+        <p>
+        <label for="name">Name:</label>  
+     	<input type="text" value="Your name" id="name" name="name" class="required"></input>
+     	</p>
+     	<p>
+     	 <label for='email'>Emali:</label>  
+     	<input type="text" value="Your Email address" id="email" name="email" class="email required"></input>
+     	</p>
+     	<p>
+     	 <label for="message">Message:</label>
+     	<textarea cols="45" rows="7" id="message" name="message" class="required">Write your message here
+     	</textarea>
+     	</p>
+     	<input type="submit" value="Send"></input>
+       </fieldset>
+     </form>
+	</div>
+  </div>
+</body>
+</html>

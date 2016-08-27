@@ -1,0 +1,16 @@
+body{
+	font-size: 76%;
+	font-family: "Helvetica","Arial",sans-serif;
+}
+h1{
+	font-family: "Georgia","Time New Roman",sans-serif;
+	font:2.5em normal;
+}
+h2{
+	font-family: "Georgia","Time New Roman",sans-serif;
+    font: 1.8em normal;
+    margin-top: 1em;
+}
+a{
+	font-weight: bold;
+}
